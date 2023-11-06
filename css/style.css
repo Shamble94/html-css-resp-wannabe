@@ -139,7 +139,7 @@ img {
         width: 100%;
     }
 
-    .lessons .col{
+    .lessons .col, .steps .col{
         width: 100%;
         margin-bottom: 40px;
     }
@@ -153,10 +153,6 @@ img {
         align-items: center;
     }
 
-    .steps .col{
-        width: 100%;
-        margin-bottom: 40px;
-    }
 
     .why-us .col-left{
         margin-bottom: 40px;
@@ -167,8 +163,9 @@ img {
     }
     .why-us{
         background-color: rgba(34,34,34,255);
-        margin:0;
     }
-   
+    .steps{
+        margin-bottom: 0px;
+    }
 
 }
